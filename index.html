@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobiografia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon/perfil.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1> Brenda Ryane Mendes da Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('sobre-mim')">Sobre mim</a></li>
+                <li><a href="#" onclick="showSection('formacao-academica')">Formação Acadêmica</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfólio</a></li>
+                <li><a href="#" onclick="showSection('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mim" class="active">
+        <h2>Sobre mim</h2>
+        <p>Olá! Pra quem não me conhece me chamo Brenda Ryane Mendes da Silva, tenho 22 anos,nasci na Bahia no dia 14/05/2022, atualmente moro em Jeremoabo/BA.</p>
+        <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Uninter e pretendo trabalhar na área em breve. Estou em busca de novos conhecimentos tanto na área de TI como em outras áreas, ainda não trabalho na área mas acredito que em breve já estarei empregada. Alguns de meus hobbies favoritos são: Ler, Assistir séries e filmes, Cozinhar, Correr e ouvir músicas.</p>
+        <img src="icon/foto.jpg" alt="Foto de Brenda Ryane">
+    </section>
+
+    <section id="formacao-academica" style="display: none;">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li>Ensino Médio Profissionalizante em Nutrição e Dietética - CETEPI II WILSON PEREIRA</li>
+            <li>Curso Complementar em Noções Básicas de Direito Administrativo - ESKADA UEMA</li>
+            <li>Curso Complementar em Gestão de Pessoas - ESKADA UEMA </li>
+            <li>Ensino Superior Incompleto em Análise e Desenvolvimento de Sistemas - Uninter </li>
+        </ul>
+    </section>
+
+    <section id="portfolio" style="display: none;">
+        <h2>Portfólio</h2>
+        <p>Alguns de meus projetos incluem: </p>
+        <ul>
+            <li>Projetos de Feira Tecnológica do curso de Nutrição e Dietética</li>
+            <li>Utilização Integral do Abacate</li>
+            <li>Desenvolvimento de um projeto inovador que aproveita 100% do abacate, promovendo a sustentabilidade e a minimização do desperdício alimentar.</li>
+            <li>Aproveitamento da Semente do Caju</li>
+            <li>Criação de um projeto focado na reutilização da semente do caju, visando a inovação na gastronomia e aproveitamento integral dos alimentos.</li>
+        </ul>
+    </section>
+
+    <section id="contato" style="display: none;">
+        <h2>Contato</h2>
+        <p>Você pode me contatar através do e-mail:</p>
+        <p>brendaryane14@gmail.com</p>
+        <p>Ou pelo Celular:</p>
+        <p>(75)99221-8881</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Brenda Ryane. Todos os direitos reservados.</p>
+    </footer>
+
+    <!--Adicionar o Script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
